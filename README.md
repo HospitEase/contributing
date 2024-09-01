@@ -79,7 +79,7 @@ To develop locally:
 3. Install the dependencies with:
 
    ```sh
-   npm
+   pnpm install
    ```
 
 4. Set up your `.env` file:
@@ -89,7 +89,7 @@ To develop locally:
 5. Start developing and watch for code changes:
 
    ```sh
-   npm dev
+   pnpm run dev
    ```
 
 ## Building
@@ -97,7 +97,7 @@ To develop locally:
 You can build the project with:
 
 ```bash
-npm build
+pnpm run build
 ```
 
 Please be sure that you can make a full production build before pushing code.
@@ -107,7 +107,7 @@ Please be sure that you can make a full production build before pushing code.
 To check the formatting of your code:
 
 ```sh
-npm lint
+pnpm run lint
 ```
 
 If you get errors, be sure to fix them before committing.
