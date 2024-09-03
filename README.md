@@ -107,7 +107,7 @@ Please be sure that you can make a full production build before pushing code.
 To check the formatting of your code:
 
 ```sh
-pnpm run lint
+pnpm run format
 ```
 
 If you get errors, be sure to fix them before committing.
@@ -120,4 +120,4 @@ If you get errors, be sure to fix them before committing.
 
 ## Guidelines for committing npm lockfile
 
-Do not commit your `package-lock.json` unless you've made changes to the `package.json`. 
+Do not commit your `pnpm-lock.yaml` unless you've made changes to the `package.json`. 
